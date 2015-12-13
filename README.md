@@ -10,5 +10,8 @@ $ ./kanye a b
 where "a" and "b" are non-zero numbers
 Returns the average of a+b, a*b, a/b and b/a
 
-Example: ./kanye 2 3
+Example: 
+
+$ ./kanye 2 3
+
 kanye avg. = 3.29167
