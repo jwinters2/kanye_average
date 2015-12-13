@@ -4,15 +4,16 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-  if(argc!=3 || atof(argv[1])==0 || atof(argv[2])==0)
-    {
-      cout<<"invalid, use 2 non-zero numbers"<<endl;
+    float a = atof(argv[1]);
+    float b = atof(argv[2]);
+
+    if(argc! == 3 || a == 0 || b == 0){
+	    cout << "Invalid, use 2 non-zero numbers." << endl;
+	    if(argc! == 3) ? return -1: return -2;
     }
-  else
-    {
-      float a=atof(argv[1]);
-      float b=atof(argv[2]);
-      cout<<"kanye avg. = "<<0.25*((a+b)+(a*b)+(a/b)+(b/a))<<endl;
-    }
-  return 0;
+
+    float k = 0.25 *((a + b)+(a * b)+(a / b)+(b / a));
+    cout << "Kanye avg. = " << k << endl;
+
+    return 0;
 }
