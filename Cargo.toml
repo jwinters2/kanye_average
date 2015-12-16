@@ -1,0 +1,6 @@
+[package]
+name = "kanye_average"
+version = "0.1.0"
+authors = ["jwinters2 <jamiewinters8@gmail.com>", "Michael Eden <themichaeleden@gmail.com>"]
+
+[dependencies]
